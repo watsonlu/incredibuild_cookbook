@@ -1,5 +1,5 @@
 name "Incredibuild-Cookbook"
-version "0.0.1"
+version "0.0.3"
 maintainer "Luke Watson"
 maintainer_email "luwatson90@gmail.com"
 issues_url "https://github.com/watsonlu/Incredibuild-Cookbook/issues"

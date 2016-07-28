@@ -15,4 +15,9 @@ platforms:
 suites:
   - name: default
     run_list:
-      - recipe[build::default]
+      - recipe[Incredibuild-Cookbook::default]
+    attributes:
+      incredibuild:
+        url: "http://IBSetupConsole.exe"
+        install:
+          coordinator: "incredibuild/"
