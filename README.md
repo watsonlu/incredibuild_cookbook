@@ -11,6 +11,11 @@ Adds basic support for installing, updating, repairing and uninstalling incredib
 
 ###Examples
 
+All commands require this attribute to be set:
+```
+node["incredibuild"]["url"] = "http://path.to.ibconsole.exe"
+```
+
 ####Installing
 
 ```
@@ -38,4 +43,3 @@ node["incredibuild"]["update"]
 ##TODO
 
 1. Installation arguments
-
