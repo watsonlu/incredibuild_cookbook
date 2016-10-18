@@ -8,6 +8,9 @@ Adds basic support for installing incredibuild agents
 1. You must have created an automated installer from your incredibuild installer. Run the installer, then click "Create Automated Installer"
 2. You must host your automated installer somewhere.
 
+##Usage
+
+Add the install or default recipe to your runlist and specify your coordinator url
 
 ###Examples
 
@@ -28,8 +31,6 @@ Optional, set an install directory:
 ```
 node["incredibuild"]["install"]["installdir"] = "C:\wherever\"
 ```
-
-Add the install or default recipe to your runlist
 
 ##TODO
 
