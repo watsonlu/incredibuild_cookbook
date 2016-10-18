@@ -1,6 +1,6 @@
 # Incredibuild-Cookbook
 
-Adds basic support for installing, updating, repairing and uninstalling incredibuild agents
+Adds basic support for installing incredibuild agents
 
 
 ##Requirements
@@ -11,35 +11,19 @@ Adds basic support for installing, updating, repairing and uninstalling incredib
 
 ###Examples
 
-All commands require this attribute to be set:
+Set your ibconsole location:
+
 ```
 node["incredibuild"]["url"] = "http://path.to.ibconsole.exe"
-```
 
-####Installing
+Set your coordinater url:
 
 ```
 node["incredibuild"]["install"]["coordinator"] = "yourcoordinatorhostname"
 ```
 
-####Uninstalling
-
-```
-node["incredibuild"]["uninstall"]
-```
-
-###Repairing
-
-```
-node["incredibuild"]["repair"]
-```
-
-###Updating
-
-```
-node["incredibuild"]["update"]
-```
+Add the install or default recipe to your runlist
 
 ##TODO
 
-1. Installation arguments
+1. More installation arguments
