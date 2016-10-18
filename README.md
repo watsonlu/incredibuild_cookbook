@@ -22,6 +22,12 @@ Set your coordinater url:
 node["incredibuild"]["install"]["coordinator"] = "yourcoordinatorhostname"
 ```
 
+Optional, set an install directory:
+
+```
+node["incredibuild"]["install"]["installdir"] = "C:\wherever\"
+```
+
 Add the install or default recipe to your runlist
 
 ##TODO
