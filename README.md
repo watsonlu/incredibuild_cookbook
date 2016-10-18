@@ -15,6 +15,7 @@ Set your ibconsole location:
 
 ```
 node["incredibuild"]["url"] = "http://path.to.ibconsole.exe"
+```
 
 Set your coordinater url:
 
