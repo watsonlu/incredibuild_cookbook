@@ -1,1 +1,1 @@
-include_recipe "incredibuild_cookbook::install"
+include_recipe 'incredibuild_cookbook::install'
